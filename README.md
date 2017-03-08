@@ -50,6 +50,16 @@ Start the ELK stack using *docker-compose*:
 ```bash
 $ docker-compose up
 ```
+Encountered:
+  For Elasticsearch:
+*WARNING*: Image for service elasticsearch was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`. Encountered during the last stack start.
+
+  For logstash:
+*WARNING*: Image for service logstash was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+
+  For kibana:
+*WARNING*: Image for service kibana was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.
+
 
 You can also choose to run it in background (detached mode):
 
